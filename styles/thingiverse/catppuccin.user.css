@@ -88,8 +88,82 @@
       }
     }
 
-    /* Start styling your website here: */
-    background-color: @base;
+    /* Main */
+    body {
+      background-color: @base;
+    }
+    .Card__card--k0alX {
+      background-color: @mantle;
+    }
+
+
+    /* Text */
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    div#Summary,
+    .License__license--_pcgb {
+      color: @text;
+    }
+
+
+    /* Buttons */
+    .um-button--primary {
+      background-color: @accent-color;
+      color: @base;
+    }
+    .um-button--icon-only {
+      background-color: @surface0 !important;
+      color: @text !important;
+    }
+    .ButtonCounterWrapper__buttonCounter--YXhXL,
+    .Avatar__featuredFlair--JyaCW,
+    .DetailPageSidebar__detailSidebarButtonWrapper--cNykH .DetailPageSidebar__detailSidebarButtonCounter--2SMgn,
+    .Tabs__tab--aC64Y.um-button.Tabs__isActive--wtPTB .Tabs__tabCounter--qJ12_ {
+      background-color: @accent-color;
+      color: @base;
+    }
+
+
+    /* Header */
+    #page-header > div {
+      background-color: @mantle;
+    }
+    .SearchInput__searchContainer--gBKIr,
+    .SearchInput__searchContainer--gBKIr .SearchInput__searchInput--HPa9Q
+    {
+      background-color: @crust;
+    }
+
+
+    /* Footer */
+    .Footer__footer--iz1B4 {
+      background: @mantle;
+      border: none;
+    }
+    .Footer__footerLink--EqU3L,
+    .Footer__footerLinks--omaF1 > a,
+    .Footer__footerLogoLink--Krj6F > svg {
+      color: @text !important;
+    }
+
+
+    /* Cards */
+    .item-card-container {
+      background-color: @mantle;
+    }
+    .ItemCardHeader__itemCardHeader--cPULo {
+      color: @text;
+    }
+    .ItemCardContainer__itemCard--GGbYM {
+      border: none;
+    }
+    .ItemCardContent__itemCardContentHeader--wVpTe .ItemCardContent__itemCardContentAvatar--LnsPb {
+      border: 2px solid @base;
+    }
+
 
     /* If you need to specify an overwrite specific to a flavor
     *  (e.g. only when the flavor is set to latte), you can use a `when` guard clause. */
