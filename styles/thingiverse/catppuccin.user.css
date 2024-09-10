@@ -107,23 +107,38 @@
     .License__license--_pcgb {
       color: @text;
     }
-
-
-    /* Buttons */
-    .um-button--primary {
-      background-color: @accent-color;
-      color: @base;
+    .DetailPageTitle__thingTitleMeta--P5VUn * {
+      color: @subtext0;
     }
+
+
+    /* Buttons + Tabs */
     .um-button--icon-only {
       background-color: @surface0 !important;
       color: @text !important;
     }
+    .um-button--primary,
     .ButtonCounterWrapper__buttonCounter--YXhXL,
     .Avatar__featuredFlair--JyaCW,
     .DetailPageSidebar__detailSidebarButtonWrapper--cNykH .DetailPageSidebar__detailSidebarButtonCounter--2SMgn,
     .Tabs__tab--aC64Y.um-button.Tabs__isActive--wtPTB .Tabs__tabCounter--qJ12_ {
       background-color: @accent-color;
-      color: @base;
+      color: @mantle;
+    }
+    .um-button:not(.um-button--primary) {
+      color: @accent-color;
+    }
+    .Tabs__tab--aC64Y.um-button.Tabs__isActive--wtPTB {
+      border-color: @accent-color;
+      color: @accent-color;
+    }
+    .Tabs__tab--aC64Y.um-button {
+      border-color: @surface0;
+      color: @text;
+    }
+    .Tabs__tab--aC64Y.um-button .Tabs__tabCounter--qJ12_ {
+      background-color: @surface1;
+      color: @text;
     }
 
 
@@ -139,6 +154,13 @@
 
 
     /* Footer */
+    .Carousel__carouselLoadingImage--jv1cj,
+    .Carousel__carouselModelViewer--dvVuu,
+    .Carousel__carouselWrapper--HrTMG .slide iframe,
+    .Carousel__carouselWrapper--HrTMG .slide img,
+    .ModelRender__modelRenderContainer--Yrxpe {
+      background: @mantle;
+    }
     .Footer__footer--iz1B4 {
       background: @mantle;
       border: none;
@@ -148,11 +170,20 @@
     .Footer__footerLogoLink--Krj6F > svg {
       color: @text !important;
     }
+    .Pagination__paginationItem--Q3iyx {
+      color: @text;
+    }
+    .Pagination__paginationItem--Q3iyx.Pagination__isActive--SL4a0 > span {
+      border-color: @accent-color;
+    }
 
 
     /* Cards */
     .item-card-container {
       background-color: @mantle;
+    }
+    .ThingPage__thingPageBlock--rnnMl .item-card-container {
+      background-color: @crust;
     }
     .ItemCardHeader__itemCardHeader--cPULo {
       color: @text;
@@ -161,7 +192,24 @@
       border: none;
     }
     .ItemCardContent__itemCardContentHeader--wVpTe .ItemCardContent__itemCardContentAvatar--LnsPb {
-      border: 2px solid @base;
+      border-color: @base;
+    }
+    .HomePage__homePageDiscoverCTA--Yrtei {
+      border-color: @accent-color;
+    }
+    .Layout__newStyle--JsCPG {
+      color: @subtext0;
+    }
+
+    /* Dropdowns */
+    .SearchFilterBar__searchFilterBar--RIie5 .tv-select.reversed .react-select__control,
+    .FilterDropdown__filterDropdownButton--ScrQk {
+      background-color: @surface0;
+      border: none;
+    }
+    .FilterSelect__filterSelect--NkZms.tv-select .react-select__single-value,
+    .FilterDropdown__filterDropdownButton--ScrQk {
+      color: @subtext1;
     }
 
 
